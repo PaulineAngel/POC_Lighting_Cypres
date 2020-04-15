@@ -1,0 +1,27 @@
+{
+  "name": "poc_lighting_cypres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulineAngel/POC_Lighting_Cypres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulineAngel/POC_Lighting_Cypres/issues"
+  },
+  "homepage": "https://github.com/PaulineAngel/POC_Lighting_Cypres#readme",
+  "devDependencies": {
+    "cypress": "^4.4.0"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
+
+}
