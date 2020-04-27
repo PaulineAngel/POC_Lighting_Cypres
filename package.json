@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/PaulineAngel/POC_Lighting_Cypres#readme",
   "devDependencies": {
-    "cypress": "^4.4.0"
+    "cypress": "^4.4.1"
   },
   "dependencies": {
     "npx": "^10.2.2"
   }
-
 }
