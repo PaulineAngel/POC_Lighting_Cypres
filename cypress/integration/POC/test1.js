@@ -1,17 +1,22 @@
 describe('First test', () =>{
     it('Just it', () =>{
-        cy.visit('https://login.salesforce.com/?locale=br')
-        
-        cy.contains('username')
+        cy.visit('https://dellservices--dev1.my.salesforce.com/?login')
+        cy.wait(1000)
+        cy.get('#username')
         .click()
         .type('pauline_angel@dellservices.dev1')
 
-        cy.contains('pw')
+        cy.wait(1000)
+        cy.get('#password')
         .click()
         .type('Pp81712180@')
-        
-        cy.get('input[type="submit"]')
-        .click()
+    
+
+        cy.wait(1000)
+        cy.get('[type=submit]')
+        //.click()
+
+        cy.wait(100000)
     })
 })
 
